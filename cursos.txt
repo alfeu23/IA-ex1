@@ -1,0 +1,664 @@
+
+                  curso.assert_fact(nome='ADMINISTRAÇÃO',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='MAT'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='716,95')
+
+                  curso.assert_fact(nome='ADMINISTRAÇÃO',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='708,06')
+
+                  curso.assert_fact(nome='AGRONOMIA',
+                                    campus='CURITIBANOS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS AGRÁRIAS'
+                                    nota_corte='658,95')
+
+                  curso.assert_fact(nome='AGRONOMIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS AGRÁRIAS'
+                                    nota_corte='697,85')
+
+                  curso.assert_fact(nome='ANIMAÇÃO',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='LINGUÍSTICA, LETRAS E ARTES'
+                                    nota_corte='781,58')
+
+                  curso.assert_fact(nome='ANTROPOLOGIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='VESP'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS HUMANAS'
+                                    nota_corte='643,07')
+
+                  curso.assert_fact(nome='ARQUIVOLOGIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='MAT'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='644,73')
+
+                  curso.assert_fact(nome='ARTES CÊNICAS',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='BEL'
+                                    area='LINGUÍSTICA, LETRAS E ARTES'
+                                    nota_corte='717,11')
+
+                  curso.assert_fact(nome='BIBLIOTECONOMIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='640,67')
+
+                  curso.assert_fact(nome='CIÊNCIA DA INFO.',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='696,16')
+
+                  curso.assert_fact(nome='CIÊNCIA E TEC.',
+                                    campus='JOINVILLE,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='691,61')
+
+                  curso.assert_fact(nome='CIÊNCIAS BIOLÓGICAS',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='LIC'
+                                    area='CIÊNCIAS BIOLÓGICAS'
+                                    nota_corte='711,27')
+
+                  curso.assert_fact(nome='CIÊNCIAS CONTÁBEIS',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='718,43')
+
+                  curso.assert_fact(nome='CIÊNCIAS CONTÁBEIS',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='MAT'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='670,73')
+
+                  curso.assert_fact(nome='CIÊNCIAS ECONÔMICAS',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='737,71')
+
+                  curso.assert_fact(nome='CIÊNCIAS ECONÔMICAS',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='MAT'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='757,53')
+
+                  curso.assert_fact(nome='CIÊNCIAS SOCIAIS',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='BEL/LIC'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='711,24')
+
+                  curso.assert_fact(nome='CIÊNCIAS SOCIAIS',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='MAT'
+                                    tipo='BEL/LIC'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='726,93')
+
+                  curso.assert_fact(nome='CINEMA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='LINGUÍSTICA, LETRAS E ARTES'
+                                    nota_corte='698,35')
+
+                  curso.assert_fact(nome='DESIGN',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='757,56')
+
+                  curso.assert_fact(nome='DIREITO',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='10',
+                                    turno='NOT'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='757,13')
+
+                  curso.assert_fact(nome='DIREITO',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='10',
+                                    turno='MAT'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='770,76')
+
+                  curso.assert_fact(nome='EDUCAÇÃO FÍSICA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='MAT'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='721,82')
+
+                  curso.assert_fact(nome='EDUCAÇÃO FÍSICA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='VESP'
+                                    tipo='LIC'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='663,58')
+
+                  curso.assert_fact(nome='ENFERMAGEM',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS DA SAÚDE'
+                                    nota_corte='751,45')
+
+                  curso.assert_fact(nome='ENG. AEROESPACIAL',
+                                    campus='JOINVILLE,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='796,37')
+
+                  curso.assert_fact(nome='ENG. AUTOMOTIVA',
+                                    campus='JOINVILLE,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='738,4')
+
+                  curso.assert_fact(nome='ENG. CIVIL',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='723,61')
+
+                  curso.assert_fact(nome='ENG. DE ALIMENTOS',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='703,07')
+
+                  curso.assert_fact(nome='ENG. DE ENERGIA',
+                                    campus='ARARANGUÁ,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='674,46')
+
+                  curso.assert_fact(nome='ENG. DE MATERIAIS',
+                                    campus='BLUMENAU,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='637,67')
+
+                  curso.assert_fact(nome='ENG. DE MATERIAIS',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='730,56')
+
+                  curso.assert_fact(nome='ENG. DE PRODUÇÃO',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='742,72')
+
+                  curso.assert_fact(nome='ENG. ELÉTRICA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='739,84')
+
+                  curso.assert_fact(nome='ENG. ELETRÔNICA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='723,92')
+
+                  curso.assert_fact(nome='ENG. FLORESTAL',
+                                    campus='CURITIBANOS,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='638,71')
+
+                  curso.assert_fact(nome='ENG. MECÂNICA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='761,65')
+
+                  curso.assert_fact(nome='ENG. MECATRÔNICA',
+                                    campus='JOINVILLE,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='769,68')
+
+                  curso.assert_fact(nome='ENG. NAVAL',
+                                    campus='JOINVILLE,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='753,09')
+
+                  curso.assert_fact(nome='ENG. QUÍMICA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='760,37')
+
+                  curso.assert_fact(nome='ENG. TÊXTIL',
+                                    campus='BLUMENAU,
+                                    duracao='10',
+                                    turno='MAT'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='624,95')
+
+                  curso.assert_fact(nome='FARMÁCIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS DA SAÚDE'
+                                    nota_corte='739,91')
+
+                  curso.assert_fact(nome='FILOSOFIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS HUMANAS'
+                                    nota_corte='725,8')
+
+                  curso.assert_fact(nome='FILOSOFIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='VESP'
+                                    tipo='LIC'
+                                    area='CIÊNCIAS HUMANAS'
+                                    nota_corte='735,07')
+
+                  curso.assert_fact(nome='FÍSICA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='726,67')
+
+                  curso.assert_fact(nome='FÍSICA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='LIC'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='667,62')
+
+                  curso.assert_fact(nome='FISIOTERAPIA',
+                                    campus='ARARANGUÁ,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS DA SAÚDE'
+                                    nota_corte='746,62')
+
+                  curso.assert_fact(nome='FONOAUDIOLOGIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS DA SAÚDE'
+                                    nota_corte='659,44')
+
+                  curso.assert_fact(nome='GEOGRAFIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='MAT'
+                                    tipo='BEL/LIC'
+                                    area='CIÊNCIAS HUMANAS'
+                                    nota_corte='705,16')
+
+                  curso.assert_fact(nome='GEOGRAFIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='BEL/LIC'
+                                    area='CIÊNCIAS HUMANAS'
+                                    nota_corte='679,95')
+
+                  curso.assert_fact(nome='GEOLOGIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='656,25')
+
+                  curso.assert_fact(nome='HISTÓRIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='MAT'
+                                    tipo='ABI'
+                                    area='CIÊNCIAS HUMANAS'
+                                    nota_corte='744,16')
+
+                  curso.assert_fact(nome='HISTÓRIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='ABI'
+                                    area='CIÊNCIAS HUMANAS'
+                                    nota_corte='716,71')
+
+                  curso.assert_fact(nome='JORNALISMO',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='749,21')
+
+                  curso.assert_fact(nome='LETRAS ALEMÃO',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='VESP'
+                                    tipo='ABI'
+                                    area='LINGUÍSTICA, LETRAS E ARTES'
+                                    nota_corte='698,18')
+
+                  curso.assert_fact(nome='LETRAS ESPANHOL',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='MAT'
+                                    tipo='ABI'
+                                    area='LINGUÍSTICA, LETRAS E ARTES'
+                                    nota_corte='663,25')
+
+                  curso.assert_fact(nome='LETRAS FRANCÊS',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='MAT'
+                                    tipo='ABI'
+                                    area='LINGUÍSTICA, LETRAS E ARTES'
+                                    nota_corte='681,27')
+
+                  curso.assert_fact(nome='LETRAS INGLÊS',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='VESP'
+                                    tipo='ABI'
+                                    area='LINGUÍSTICA, LETRAS E ARTES'
+                                    nota_corte='674,33')
+
+                  curso.assert_fact(nome='LETRAS ITALIANO',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='MAT'
+                                    tipo='ABI'
+                                    area='LINGUÍSTICA, LETRAS E ARTES'
+                                    nota_corte='691,31')
+
+                  curso.assert_fact(nome='LETRAS PORTUGUÊS',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='BEL/LIC'
+                                    area='LINGUÍSTICA, LETRAS E ARTES'
+                                    nota_corte='683,81')
+
+                  curso.assert_fact(nome='MATEMÁTICA',
+                                    campus='BLUMENAU,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='LIC'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='682,46')
+
+                  curso.assert_fact(nome='MATEMÁTICA',
+                                    campus='BLUMENAU,
+                                    duracao='8',
+                                    turno='MAT'
+                                    tipo='LIC'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='672,72')
+
+                  curso.assert_fact(nome='MATEMÁTICA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='749,46')
+
+                  curso.assert_fact(nome='MATEMÁTICA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='MAT'
+                                    tipo='LIC'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='692,27')
+
+                  curso.assert_fact(nome='MEDICINA',
+                                    campus='ARARANGUÁ,
+                                    duracao='12',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS DA SAÚDE'
+                                    nota_corte='817,27')
+
+                  curso.assert_fact(nome='MEDICINA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='12',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS DA SAÚDE'
+                                    nota_corte='823,84')
+
+                  curso.assert_fact(nome='METEOROLOGIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='615,82')
+
+                  curso.assert_fact(nome='MUSEOLOGIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='636,39')
+
+                  curso.assert_fact(nome='NUTRIÇÃO',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS DA SAÚDE'
+                                    nota_corte='771,11')
+
+                  curso.assert_fact(nome='OCEANOGRAFIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='686,76')
+
+                  curso.assert_fact(nome='ODONTOLOGIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS DA SAÚDE'
+                                    nota_corte='773,36')
+
+                  curso.assert_fact(nome='PEDAGOGIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='VESP'
+                                    tipo='LIC'
+                                    area='CIÊNCIAS HUMANAS'
+                                    nota_corte='683,93')
+
+                  curso.assert_fact(nome='PSICOLOGIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='10',
+                                    turno='INTEGRAL'
+                                    tipo='BEL/LIC'
+                                    area='CIÊNCIAS DA SAÚDE'
+                                    nota_corte='770,51')
+
+                  curso.assert_fact(nome='QUÍMICA',
+                                    campus='BLUMENAU,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='LIC'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='678,71')
+
+                  curso.assert_fact(nome='QUÍMICA',
+                                    campus='BLUMENAU,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='699,15')
+
+                  curso.assert_fact(nome='QUÍMICA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='LIC'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='704,07')
+
+                  curso.assert_fact(nome='QUÍMICA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS EXATAS E DA TERRA'
+                                    nota_corte='712,65')
+
+                  curso.assert_fact(nome='RELAÇÕES INTERNACIONAIS',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='VESP'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='755,64')
+
+                  curso.assert_fact(nome='SECRETARIADO EXECUTIVO',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='680,78')
+
+                  curso.assert_fact(nome='SERVIÇO SOCIAL',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS SOCIAIS APLICADAS'
+                                    nota_corte='660,71')
+
+                  curso.assert_fact(nome='SISTEMAS DE INFO.',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='739,73')
+
+                  curso.assert_fact(nome='TEC. DA INFO. E COMUNICAÇÃO',
+                                    campus='ARARANGUÁ,
+                                    duracao='8',
+                                    turno='NOT'
+                                    tipo='BEL'
+                                    area='OUTRAS'
+                                    nota_corte='705,96')
+
+                  curso.assert_fact(nome='ZOOTECNIA',
+                                    campus='FLORIANÓPOLIS,
+                                    duracao='8',
+                                    turno='INTEGRAL'
+                                    tipo='BEL'
+                                    area='CIÊNCIAS AGRÁRIAS'
+                                    nota_corte='671,67')
