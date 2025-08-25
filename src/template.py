@@ -1,9 +1,10 @@
 import clips
 
+
 def create_environment_with_templates():
     """Creates a CLIPS environment with all templates defined"""
     env = clips.Environment()
-    
+
     curso_template = """
     (deftemplate curso
        (slot nome (type STRING))
@@ -15,20 +16,23 @@ def create_environment_with_templates():
        (slot nota_corte (type FLOAT)) ;; https://sisu2024.ufsc.br/files/2024/02/notas-maximas-minimas-sisu2024.pdf
     )
     """
-    
+
     perfil_template = """
     (deftemplate perfil
-       (slot preferencia_turno (type STRING))
-       (slot nota_enem (type FLOAT))
-       (multislot areas_interesse (type STRING))
-       (multislot locais_interesse (type STRING))
+        (slot preferencia_turno (type STRING))
+        (slot nota_enem (type FLOAT))
+        (multislot areas_interesse (type STRING))
+        (multislot locais_interesse (type STRING))
+        (slot tipo_preferencia (type STRING))
+        (slot duracao_preferencia (type INTEGER))
     )
     """
-    
+
     env.build(curso_template)
     env.build(perfil_template)
-    
+
     return env
+
 
 campus_d = {
     "FLN": "Florianopolis",
