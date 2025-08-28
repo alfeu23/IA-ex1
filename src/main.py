@@ -11,11 +11,11 @@ def main():
     perfil = env.find_template("perfil")
     perfil.assert_fact(
         preferencia_turno="integral",
-        nota_enem=780.00,
-        areas_interesse=[area_d["CS"], area_d["CET"]],
-        locais_interesse=[campus_d["FLN"], campus_d["CUR"]],
+        nota_enem=880.00,
+        areas_interesse=[area_d["ENG"], area_d["CET"]],
+        locais_interesse=[campus_d["FLN"]],
         tipo_preferencia="bacharelado",
-        duracao_preferencia=10,
+        duracao_preferencia=8,
     )
 
     # Add rules

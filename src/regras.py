@@ -1,22 +1,22 @@
 def add_rules(env):
-    """Add all recommendation rules to the CLIPS environment"""
+    """Define the rules for the env"""
 
-   #  env.build("""
-   #  (defrule recomendar-curso-por-turno
-   #     (perfil (preferencia_turno ?turno))
-   #     (curso (nome ?n) (turno ?turno))
-   #     =>
-   #     (printout t "Recomendação por turno preferido: " ?n " - " ?turno crlf))
-   #  """)
+    #  env.build("""
+    #  (defrule recomendar-curso-por-turno
+    #     (perfil (preferencia_turno ?turno))
+    #     (curso (nome ?n) (turno ?turno))
+    #     =>
+    #     (printout t "Recomendação por turno preferido: " ?n " - " ?turno crlf))
+    #  """)
 
-   #  env.build("""
-   #  (defrule recomendar-curso-por-nota
-   #     (perfil (nota_enem ?ne))
-   #     (curso (nome ?n) (nota_corte ?nc))
-   #     (test (<= ?nc ?ne))
-   #     =>
-   #     (printout t "Curso possível com sua nota: " ?n " (Nota de corte: " ?nc ")" crlf))
-   #  """)
+    #  env.build("""
+    #  (defrule recomendar-curso-por-nota
+    #     (perfil (nota_enem ?ne))
+    #     (curso (nome ?n) (nota_corte ?nc))
+    #     (test (<= ?nc ?ne))
+    #     =>
+    #     (printout t "Curso possível com sua nota: " ?n " (Nota de corte: " ?nc ")" crlf))
+    #  """)
 
     env.build("""
     (defrule recomendar-curso-ideal

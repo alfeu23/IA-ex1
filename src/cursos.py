@@ -2,7 +2,7 @@ from template import campus_d, area_d
 
 
 def add_cursos_facts(env):
-    """Add all course facts to the CLIPS environment"""
+    """Add the course facts"""
     curso = env.find_template("curso")
 
     curso.assert_fact(

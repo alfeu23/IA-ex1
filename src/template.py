@@ -2,7 +2,7 @@ import clips
 
 
 def create_environment_with_templates():
-    """Creates a CLIPS environment with all templates defined"""
+    """Create the env with course and profile templates"""
     env = clips.Environment()
 
     curso_template = """
