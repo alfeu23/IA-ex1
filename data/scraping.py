@@ -224,4 +224,4 @@ if __name__ == "__main__":
     # df = extract_data("/home/caiofc/Documentos/notas-maximas-minimas-sisu2024.pdf")
     # df.to_csv("cursos.csv", index=False)
 
-    extract_data_clips("data/notas-maximas-minimas-sisu2024.pdf")
+    extract_data_clips("notas-maximas-minimas-sisu2024.pdf")
