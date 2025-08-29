@@ -15,9 +15,10 @@ def main():
         areas_interesse=[area_d["ENG"], area_d["CET"]],
         locais_interesse=[campus_d["FLN"]],
         tipo_preferencia="bacharelado",
-        duracao_preferencia=8,
+        duracao_preferencia=10,
     )
 
+    
     # Add rules
     add_rules(env)
 

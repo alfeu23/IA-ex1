@@ -28,8 +28,18 @@ def create_environment_with_templates():
     )
     """
 
+    curso_engenharia_template = """
+    (deftemplate curso-engenharia
+       (slot nome (type STRING)) ;; mirrors curso:nome
+       (slot foco (type STRING)) ;; ex: circuitos, carros, software, materiais
+       (slot intensidade_matematica (type STRING)) ;; baixa/media/alta
+       (slot laboratorio (type SYMBOL)) ;; TRUE/FALSE se exige laboratório
+    )
+    """
+
     env.build(curso_template)
     env.build(perfil_template)
+    env.build(curso_engenharia_template)
 
     return env
 

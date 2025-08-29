@@ -4,6 +4,7 @@ from template import campus_d, area_d
 def add_cursos_facts(env):
     """Add the course facts"""
     curso = env.find_template("curso")
+    curso_engenharia = env.find_template("curso-engenharia")
     curso.assert_fact(
         nome="ADMINISTRAÇÃO",
         campus=campus_d["FLN"],
@@ -983,3 +984,10 @@ def add_cursos_facts(env):
         area=area_d["CA"],
         nota_corte=737.53,
     )
+
+    curso_engenharia.assert_fact(
+    nome="ENG. SANITÁRIA E AMBIENTAL",  # Must match curso nome exactly
+    foco="esgoto",
+    intensidade_matematica="alta",
+    laboratorio=True  # Python boolean, not CLIPS TRUE/FALSE
+)
