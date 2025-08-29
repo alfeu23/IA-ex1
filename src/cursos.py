@@ -7,7 +7,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ADMINISTRAÇÃO",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="matutino",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -17,7 +17,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ADMINISTRAÇÃO",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -27,7 +27,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="AGRONOMIA",
         campus=campus_d["CUR"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CA"],
@@ -37,7 +37,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="AGRONOMIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CA"],
@@ -47,7 +47,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ANIMAÇÃO",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["LLA"],
@@ -57,7 +57,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ANTROPOLOGIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="vespertino",
         tipo="bacharelado",
         area=area_d["CH"],
@@ -67,7 +67,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ARQUIVOLOGIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="matutino",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -77,7 +77,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ARTES CÊNICAS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado",
         area=area_d["LLA"],
@@ -87,7 +87,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="BIBLIOTECONOMIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -97,7 +97,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="CIÊNCIA DA INFO.",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CET"],
@@ -107,7 +107,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="CIÊNCIA E TEC.",
         campus=campus_d["JOI"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CET"],
@@ -117,7 +117,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="CIÊNCIAS BIOLÓGICAS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="licenciatura",
         area=area_d["CB"],
@@ -127,7 +127,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="CIÊNCIAS CONTÁBEIS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -137,7 +137,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="CIÊNCIAS CONTÁBEIS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="matutino",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -147,7 +147,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="CIÊNCIAS ECONÔMICAS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -157,7 +157,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="CIÊNCIAS ECONÔMICAS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="matutino",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -167,7 +167,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="CIÊNCIAS SOCIAIS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado/licenciatura",
         area=area_d["CIA"],
@@ -177,7 +177,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="CIÊNCIAS SOCIAIS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="matutino",
         tipo="bacharelado/licenciatura",
         area=area_d["CIA"],
@@ -187,7 +187,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="CINEMA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["LLA"],
@@ -197,7 +197,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="DESIGN",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -207,7 +207,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="DIREITO",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -217,7 +217,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="DIREITO",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="matutino",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -227,7 +227,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="EDUCAÇÃO FÍSICA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="matutino",
         tipo="bacharelado",
         area=area_d["CET"],
@@ -237,7 +237,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="EDUCAÇÃO FÍSICA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="vespertino",
         tipo="licenciatura",
         area=area_d["CET"],
@@ -247,7 +247,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENFERMAGEM",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CS"],
@@ -257,7 +257,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. AEROESPACIAL",
         campus=campus_d["JOI"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -267,7 +267,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. AUTOMOTIVA",
         campus=campus_d["JOI"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -277,7 +277,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. CIVIL",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -287,7 +287,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. DE ALIMENTOS",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -297,7 +297,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. DE ENERGIA",
         campus=campus_d["ARA"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -307,7 +307,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. DE MATERIAIS",
         campus=campus_d["BLU"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -317,7 +317,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. DE MATERIAIS",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -327,7 +327,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. DE PRODUÇÃO",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -337,7 +337,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. ELÉTRICA",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -347,7 +347,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. ELETRÔNICA",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -357,7 +357,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. FLORESTAL",
         campus=campus_d["CUR"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -367,7 +367,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. MECÂNICA",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -377,7 +377,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. MECATRÔNICA",
         campus=campus_d["JOI"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -387,7 +387,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. NAVAL",
         campus=campus_d["JOI"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -397,7 +397,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. QUÍMICA",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CET"],
@@ -407,7 +407,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ENG. TÊXTIL",
         campus=campus_d["BLU"],
-        duracao="10",
+        duracao=8,
         turno="matutino",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -417,7 +417,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="FARMÁCIA",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CS"],
@@ -427,7 +427,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="FILOSOFIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado",
         area=area_d["CH"],
@@ -437,7 +437,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="FILOSOFIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="vespertino",
         tipo="licenciatura",
         area=area_d["CH"],
@@ -447,7 +447,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="FÍSICA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CET"],
@@ -457,7 +457,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="FÍSICA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="licenciatura",
         area=area_d["CET"],
@@ -467,7 +467,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="FISIOTERAPIA",
         campus=campus_d["ARA"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CS"],
@@ -477,7 +477,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="FONOAUDIOLOGIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CS"],
@@ -487,7 +487,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="GEOGRAFIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="matutino",
         tipo="bacharelado/licenciatura",
         area=area_d["CH"],
@@ -497,7 +497,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="GEOGRAFIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado/licenciatura",
         area=area_d["CH"],
@@ -507,7 +507,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="GEOLOGIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CET"],
@@ -517,7 +517,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="HISTÓRIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="matutino",
         tipo="ABI",
         area=area_d["CH"],
@@ -527,7 +527,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="HISTÓRIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="ABI",
         area=area_d["CH"],
@@ -537,7 +537,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="JORNALISMO",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -547,7 +547,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="LETRAS ALEMÃO",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="vespertino",
         tipo="ABI",
         area=area_d["LLA"],
@@ -557,7 +557,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="LETRAS ESPANHOL",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="matutino",
         tipo="ABI",
         area=area_d["LLA"],
@@ -567,7 +567,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="LETRAS FRANCÊS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="matutino",
         tipo="ABI",
         area=area_d["LLA"],
@@ -577,7 +577,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="LETRAS INGLÊS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="vespertino",
         tipo="ABI",
         area=area_d["LLA"],
@@ -587,7 +587,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="LETRAS ITALIANO",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="matutino",
         tipo="ABI",
         area=area_d["LLA"],
@@ -597,7 +597,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="LETRAS PORTUGUÊS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado/licenciatura",
         area=area_d["LLA"],
@@ -607,7 +607,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="MATEMÁTICA",
         campus=campus_d["BLU"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="licenciatura",
         area=area_d["CET"],
@@ -617,7 +617,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="MATEMÁTICA",
         campus=campus_d["BLU"],
-        duracao="8",
+        duracao=8,
         turno="matutino",
         tipo="licenciatura",
         area=area_d["CET"],
@@ -627,7 +627,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="MATEMÁTICA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CET"],
@@ -637,7 +637,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="MATEMÁTICA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="matutino",
         tipo="licenciatura",
         area=area_d["CET"],
@@ -647,7 +647,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="MEDICINA",
         campus=campus_d["ARA"],
-        duracao="12",
+        duracao=12,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CS"],
@@ -657,7 +657,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="MEDICINA",
         campus=campus_d["FLN"],
-        duracao="12",
+        duracao=12,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CS"],
@@ -667,7 +667,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="METEOROLOGIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CET"],
@@ -677,7 +677,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="MUSEOLOGIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -687,7 +687,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="NUTRIÇÃO",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CS"],
@@ -697,7 +697,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="OCEANOGRAFIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CET"],
@@ -707,7 +707,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ODONTOLOGIA",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CS"],
@@ -717,7 +717,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="PEDAGOGIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="vespertino",
         tipo="licenciatura",
         area=area_d["CH"],
@@ -727,7 +727,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="PSICOLOGIA",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado/licenciatura",
         area=area_d["CS"],
@@ -737,7 +737,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="QUÍMICA",
         campus=campus_d["BLU"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="licenciatura",
         area=area_d["CET"],
@@ -747,7 +747,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="QUÍMICA",
         campus=campus_d["BLU"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado",
         area=area_d["CET"],
@@ -757,7 +757,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="QUÍMICA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="licenciatura",
         area=area_d["CET"],
@@ -767,7 +767,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="QUÍMICA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CET"],
@@ -777,7 +777,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="RELAÇÕES INTERNACIONAIS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="vespertino",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -787,7 +787,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="SECRETARIADO EXECUTIVO",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -797,7 +797,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="SERVIÇO SOCIAL",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado",
         area=area_d["CIA"],
@@ -807,7 +807,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="SISTEMAS DE INFO.",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -817,7 +817,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="TEC. DA INFO. E COMUNICAÇÃO",
         campus=campus_d["ARA"],
-        duracao="8",
+        duracao=8,
         turno="noturno",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -827,7 +827,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ZOOTECNIA",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CA"],
@@ -837,7 +837,7 @@ def add_cursos_facts(env):
     curso.assert_fact(
         nome="ARQUITETURA E URBANISMO",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CS"],
@@ -845,20 +845,20 @@ def add_cursos_facts(env):
     )
 
 
-    curso.arrest_fact(
+    curso.assert_fact(
         nome="CIÊNCIA DA COMPUTAÇÃO",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CET"],
         nota_corte=809.98,
     )
 
-    curso.arrest_fact(
+    curso.assert_fact(
         nome="CIÊNCIA E TEC. DE ALIMENTOS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CA"],
@@ -866,10 +866,10 @@ def add_cursos_facts(env):
     )
 
 
-    curso.arrest_fact(
+    curso.assert_fact(
         nome="CIÊNCIAS BIOLÓGICAS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado/licenciatura",
         area=area_d["CB"],
@@ -877,10 +877,10 @@ def add_cursos_facts(env):
     )
 
 
-    curso.arrest_fact(
+    curso.assert_fact(
         nome="DESIGN DE PRODUTO",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CS"],
@@ -888,10 +888,10 @@ def add_cursos_facts(env):
     )
 
 
-    curso.arrest_fact(
+    curso.assert_fact(
         nome="ENG. CIVIL DE INFRAESTRUTURA",
         campus=campus_d["JOI"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -899,20 +899,20 @@ def add_cursos_facts(env):
     )
 
 
-    curso.arrest_fact(
+    curso.assert_fact(
         nome="ENG. DE AQUICULTURA",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
         nota_corte=634.16,
     )
 
-    curso.arrest_fact(
+    curso.assert_fact(
         nome="ENG. DE COMPUTAÇÃO",
         campus=campus_d["ARA"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CET"],
@@ -920,20 +920,20 @@ def add_cursos_facts(env):
     )
 
 
-    curso.arrest_fact(
+    curso.assert_fact(
         nome="ENG. DE CONTROLE E AUTOMAÇÃO",
         campus=campus_d["BLU"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
         nota_corte=695.91,
     )
 
-    curso.arrest_fact(
+    curso.assert_fact(
         nome="ENG. DE CONTROLE E AUTOMAÇÃO",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -941,10 +941,10 @@ def add_cursos_facts(env):
     )
 
 
-    curso.arrest_fact(
+    curso.assert_fact(
         nome="ENG. DE TRNASP. E LOG.",
         campus=campus_d["JOI"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -952,10 +952,10 @@ def add_cursos_facts(env):
     )
 
 
-    curso.arrest_fact(
+    curso.assert_fact(
         nome="ENG. FERROV. E METROVIÁRIA",
         campus=campus_d["JOI"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -963,10 +963,10 @@ def add_cursos_facts(env):
     )
 
 
-    curso.arrest_fact(
+    curso.assert_fact(
         nome="ENG. SANITÁRIA E AMBIENTAL",
         campus=campus_d["FLN"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["ENG"],
@@ -974,10 +974,10 @@ def add_cursos_facts(env):
     )
 
 
-    curso.arrest_fact(
+    curso.assert_fact(
         nome="LETRAS PORTUGUÊS",
         campus=campus_d["FLN"],
-        duracao="8",
+        duracao=8,
         turno="integral",
         tipo="bacharelado/licenciatura",
         area=area_d["LLA"],
@@ -985,10 +985,10 @@ def add_cursos_facts(env):
     )
 
 
-    curso.arrest_fact(
+    curso.assert_fact(
         nome="MEDICINA VETERINÁRIA",
         campus=campus_d["CUR"],
-        duracao="10",
+        duracao=8,
         turno="integral",
         tipo="bacharelado",
         area=area_d["CA"],
