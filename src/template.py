@@ -69,3 +69,26 @@ area_d = {
     "CA": "Ciencias Agrarias",
     "CH": "Ciencias Humanas",
 }
+
+areas_dict = {i+1: area for i, area in enumerate(area_d.values())}
+campus_dict = {i+1: campus for i, campus in enumerate(campus_d.values())}
+
+tipos_dict = {
+        1: "bacharelado",
+        2: "licenciatura",
+        3: "abi"
+    }
+    
+focos_engenharia_dict = {
+        1: "infraestrutura",
+        2: "elétrica",
+        3: "mecânica",
+        4: "materiais"
+}
+
+turnos_dict = {
+        1: "matutino",
+        2: "vespertino", 
+        3: "noturno",
+        4: "integral"
+}
