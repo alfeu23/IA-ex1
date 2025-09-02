@@ -11,8 +11,8 @@ def add_rules(env):
          (locais_interesse $? ?campus $?)
          (duracao_preferencia ?dp)
          (tipo_preferencia ?t))
-       (perfil-engenharia
-         (foco_preferencia ?foco_desejado)
+      (perfil-engenharia
+         (foco_preferencia ?foco_desejado))
       (curso
          (nome ?n)
          (campus ?campus)
@@ -27,7 +27,7 @@ def add_rules(env):
       (test (<= ?nc ?ne))
       (test (<= ?d ?dp))
       (test (eq ?area "Engenharias"))
-      (test (eq ?f ?foco_desejado)
+      (test (eq ?f ?foco_desejado))
       (not (curso-processado ?n))
       =>
       (printout t "======================================" crlf)

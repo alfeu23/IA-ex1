@@ -20,7 +20,6 @@ def create_environment_with_templates():
 
     perfil_template = """
     (deftemplate perfil
-        (slot id (type INTEGER))
         (slot preferencia_turno (type STRING))
         (slot nota_enem (type FLOAT))
         (multislot areas_interesse (type STRING))
@@ -40,7 +39,6 @@ def create_environment_with_templates():
 
     perfil_engenharia_template = """
     (deftemplate perfil-engenharia
-        (slot cpf (type INTEGER)) ;; mirros perfil:cpf
         (slot foco_preferencia (type STRING))
     )
     """
