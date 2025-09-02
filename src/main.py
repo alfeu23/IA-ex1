@@ -30,7 +30,7 @@ def main():
 
     foco = ""
     if "Engenharias" in areas_interesse:
-        foco = input("Foco em Engenharia: ")
+        foco = input("Foco em Engenharia [infraestrutura, elétrica, mecânica ou materiais]: ")
 
     # Coleta locais e converte abreviações
     print("\nCampi disponíveis:")
