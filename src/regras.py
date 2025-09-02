@@ -1,24 +1,24 @@
 def add_rules(env):
-   """Define the rules for the env"""
+    """Define the rules for the env"""
 
-   #  env.build("""
-   #  (defrule recomendar-curso-por-turno
-   #     (perfil (preferencia_turno ?turno))
-   #     (curso (nome ?n) (turno ?turno))
-   #     =>
-   #     (printout t "Recomendação por turno preferido: " ?n " - " ?turno crlf))
-   #  """)
+    #  env.build("""
+    #  (defrule recomendar-curso-por-turno
+    #     (perfil (preferencia_turno ?turno))
+    #     (curso (nome ?n) (turno ?turno))
+    #     =>
+    #     (printout t "Recomendação por turno preferido: " ?n " - " ?turno crlf))
+    #  """)
 
-   #  env.build("""
-   #  (defrule recomendar-curso-por-nota
-   #     (perfil (nota_enem ?ne))
-   #     (curso (nome ?n) (nota_corte ?nc))
-   #     (test (<= ?nc ?ne))
-   #     =>
-   #     (printout t "Curso possível com sua nota: " ?n " (Nota de corte: " ?nc ")" crlf))
-   #  """)
+    #  env.build("""
+    #  (defrule recomendar-curso-por-nota
+    #     (perfil (nota_enem ?ne))
+    #     (curso (nome ?n) (nota_corte ?nc))
+    #     (test (<= ?nc ?ne))
+    #     =>
+    #     (printout t "Curso possível com sua nota: " ?n " (Nota de corte: " ?nc ")" crlf))
+    #  """)
 
-   env.build("""
+    env.build("""
       (defrule criar-engenharia-default
          (declare (salience 100))
          (curso
@@ -34,7 +34,7 @@ def add_rules(env):
          (printout t "DEBUG: Criado perfil de engenharia padrão para: " ?n crlf))
       """)
 
-   env.build("""
+    env.build("""
    (defrule recomendar-curso-engenharia
       (declare (salience 50))
       (perfil
@@ -59,6 +59,8 @@ def add_rules(env):
          (laboratorio ?lab))
       (test (<= ?nc ?ne))
       (test (eq ?area "Engenharias"))
+      (test (or (eq ?tipoCurso ?t)
+      (neq (str-index ?t ?tipoCurso) FALSE)))
       =>
       (printout t "======================================" crlf)
       (printout t "CURSO DE ENGENHARIA ENCONTRADO!" crlf)
@@ -81,7 +83,7 @@ def add_rules(env):
       (assert (curso-processado ?n)))
    """)
 
-   env.build("""
+    env.build("""
    (defrule recomendar-curso-geral
       (declare (salience 10))
       (perfil
@@ -100,8 +102,10 @@ def add_rules(env):
          (area ?area)
          (nota_corte ?nc))
       (test (<= ?nc ?ne))
-      (test (neq ?area "Engenharias"))
       (not (curso-processado ?n))
+      (test (neq ?area "Engenharias"))
+      (test (or (eq ?tipoCurso ?t)
+      (neq (str-index ?t ?tipoCurso) FALSE)))
       =>
       (printout t "======================================" crlf)
       (printout t "CURSO IDEAL ENCONTRADO!" crlf)
