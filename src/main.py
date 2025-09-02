@@ -65,6 +65,13 @@ def main():
     )
     
     env.assert_string(fact_string)
+    
+    if "Engenharias" in areas_interesse:
+        env.assert_string(
+            f'(perfil-engenharia '
+            f'(cpf 1) ' # usando 1 como ID temporário
+            f'(foco_preferencia "{foco}"))'
+        )
 
     add_rules(env)
     env.run()
