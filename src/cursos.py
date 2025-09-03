@@ -1041,9 +1041,11 @@ def add_cursos_facts(env):
         duracao=10,
         turno="integral",
         tipo="bacharelado",
-        area=area_d["CET"],
+        area=area_d["ENG"],
         nota_corte=755.35,
     )
+
+    curso_engenharia.assert_fact(id=91, nome="ENG. DE COMPUTAÇÃO", foco="elétrica")
 
     curso.assert_fact(
         id=92,
