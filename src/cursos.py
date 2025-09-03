@@ -473,6 +473,8 @@ def add_cursos_facts(env):
         area=area_d["CET"],
         nota_corte=760.37,
     )
+    
+    curso_engenharia.assert_fact(id=40, nome="ENG. QUIMICA", foco="materiais")
 
     curso.assert_fact(
         id=41,
@@ -1044,6 +1046,8 @@ def add_cursos_facts(env):
         area=area_d["ENG"],
         nota_corte=755.35,
     )
+    
+    curso_engenharia.assert_fact(id=91, nome="ENG. DE COMPUTAÇÃO", foco="elétrica")
 
     curso_engenharia.assert_fact(id=91, nome="ENG. DE COMPUTAÇÃO", foco="elétrica")
 
