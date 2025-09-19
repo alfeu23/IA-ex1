@@ -43,10 +43,42 @@ def create_environment_with_templates():
     )
     """
 
+    profissao_template = """
+    (deftemplate profissao
+        (slot id (type INTEGER))
+        (slot nome (type STRING))
+        (slot categoria (type STRING)) ;; liberal, publico, privado, academico, autonomo
+        (slot setor (type STRING)) ;; saude, educacao, tecnologia, juridico, engenharia, etc
+        (slot salario_medio (type FLOAT))
+        (slot nivel_autonomia (type STRING)) ;; baixo, medio, alto
+        (slot descricao (type STRING))
+    )
+    """
+
+    curso_profissao_template = """
+    (deftemplate curso-profissao
+        (slot curso_nome (type STRING))
+        (slot profissao_nome (type STRING))
+        (slot requisitos_adicionais (type STRING)) ;; concurso, pos-graduacao, certificacao, experiencia
+    )
+    """
+
+    perfil_profissional_template = """
+    (deftemplate perfil-profissional
+        (multislot categorias_interesse (type STRING))
+        (multislot setores_interesse (type STRING))
+        (slot salario_minimo_desejado (type FLOAT))
+        (slot autonomia_desejada (type STRING))
+    )
+    """
+
     env.build(curso_template)
     env.build(perfil_template)
     env.build(curso_engenharia_template)
     env.build(perfil_engenharia_template)
+    env.build(profissao_template)
+    env.build(curso_profissao_template)
+    env.build(perfil_profissional_template)
 
     return env
 
@@ -91,4 +123,31 @@ turnos_dict = {
         2: "vespertino", 
         3: "noturno",
         4: "integral"
+}
+
+categorias_profissao_dict = {
+    1: "liberal",
+    2: "publico", 
+    3: "privado",
+    4: "academico",
+    5: "autonomo"
+}
+
+setores_profissao_dict = {
+    1: "saude",
+    2: "educacao",
+    3: "tecnologia",
+    4: "juridico",
+    5: "engenharia",
+    6: "administracao",
+    7: "comunicacao",
+    8: "arte",
+    9: "ciencias",
+    10: "agrario"
+}
+
+autonomia_dict = {
+    1: "baixo",
+    2: "medio", 
+    3: "alto"
 }
