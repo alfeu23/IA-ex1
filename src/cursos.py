@@ -1147,14 +1147,3 @@ def add_cursos_facts(env):
         area=area_d["CA"],
         nota_corte=737.53,
     )
-    
-    curso.assert_fact(
-        id=99,
-        nome="FÍSICA",
-        campus=campus_d["FLN"],
-        duracao=8,
-        turno="integral",
-        tipo="bacharelado",
-        area=area_d["CET"],
-        nota_corte=707.16,
-    )
