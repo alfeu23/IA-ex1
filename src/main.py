@@ -156,8 +156,9 @@ def main():
     cursos_ideais = [fact for fact in curso_ideal_facts if fact.template.name == "curso-ideal"]
     
     if not cursos_ideais:
-        print("\nNenhum curso específico encontrado para suas preferências de carreira.")
-        print("Considere revisar suas expectativas ou explorar cursos relacionados.")
+        print
+        print("\n O seu plano de carreira nao se adequa ao seu curso.")
+        print("\n Por favor faca novas escolhas.")
 
 
 if __name__ == "__main__":

@@ -6,7 +6,7 @@ def add_profissoes_facts(env):
     profissao.assert_fact(
         id=1,
         nome="Médico",
-        categoria="liberal",
+        categoria="autonomo",
         setor="saude",
         salario_medio=15000.0,
         nivel_autonomia="alto",
@@ -38,7 +38,7 @@ def add_profissoes_facts(env):
     profissao.assert_fact(
         id=3,
         nome="Dentista",
-        categoria="liberal",
+        categoria="autonomo",
         setor="saude",
         salario_medio=8000.0,
         nivel_autonomia="alto",
@@ -54,7 +54,7 @@ def add_profissoes_facts(env):
     profissao.assert_fact(
         id=4,
         nome="Advogado",
-        categoria="liberal",
+        categoria="autonomo",
         setor="juridico",
         salario_medio=7000.0,
         nivel_autonomia="alto",
@@ -151,7 +151,7 @@ def add_profissoes_facts(env):
     profissao.assert_fact(
         id=9,
         nome="Engenheiro Civil",
-        categoria="liberal",
+        categoria="autonomo",
         setor="engenharia",
         salario_medio=9000.0,
         nivel_autonomia="alto",
@@ -215,7 +215,7 @@ def add_profissoes_facts(env):
     profissao.assert_fact(
         id=13,
         nome="Farmacêutico",
-        categoria="liberal",
+        categoria="autonomo",
         setor="saude",
         salario_medio=6500.0,
         nivel_autonomia="alto",
@@ -247,7 +247,7 @@ def add_profissoes_facts(env):
     profissao.assert_fact(
         id=15,
         nome="Psicólogo",
-        categoria="liberal",
+        categoria="autonomo",
         setor="saude",
         salario_medio=5500.0,
         nivel_autonomia="alto",
@@ -295,7 +295,7 @@ def add_profissoes_facts(env):
     profissao.assert_fact(
         id=18,
         nome="Arquiteto",
-        categoria="liberal",
+        categoria="autonomo",
         setor="engenharia",
         salario_medio=8500.0,
         nivel_autonomia="alto",
@@ -333,7 +333,7 @@ def add_profissoes_facts(env):
     profissao.assert_fact(
         id=20,
         nome="Contador",
-        categoria="liberal",
+        categoria="autonomo",
         setor="administracao",
         salario_medio=5500.0,
         nivel_autonomia="alto",
@@ -424,7 +424,7 @@ def add_profissoes_facts(env):
     profissao.assert_fact(
         id=25,
         nome="Veterinário",
-        categoria="liberal",
+        categoria="autonomo",
         setor="agrario",
         salario_medio=6000.0,
         nivel_autonomia="alto",

@@ -126,11 +126,10 @@ turnos_dict = {
 }
 
 categorias_profissao_dict = {
-    1: "liberal",
+    1: "autonomo",
     2: "publico", 
     3: "privado",
     4: "academico",
-    5: "autonomo"
 }
 
 setores_profissao_dict = {
