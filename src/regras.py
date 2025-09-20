@@ -116,7 +116,7 @@ def add_rules(env):
       (not (curso-ideal-processado ?curso_nome))
       =>
       (printout t "******************************************" crlf)
-      (printout t "CURSO IDEAL BASEADO EM CARREIRA!" crlf)
+      (printout t "CARREIRA IDEAL BASEADA EM CURSO!" crlf)
       (printout t "******************************************" crlf)
       (printout t "Curso Recomendado: " ?curso_nome crlf)
       (printout t "Profissão Alvo: " ?prof_nome crlf)
@@ -156,7 +156,7 @@ def add_rules(env):
       (not (curso-ideal-processado ?curso_nome))
       =>
       (printout t "******************************************" crlf)
-      (printout t "CURSO RELACIONADO BASEADO EM CARREIRA!" crlf)
+      (printout t "CARREIRA RELACIONADA BASEADA EM CURSO!" crlf)
       (printout t "******************************************" crlf)
       (printout t "Curso Recomendado: " ?curso_nome crlf)
       (printout t "Profissão Alvo: " ?prof_nome crlf)

@@ -147,7 +147,7 @@ def main():
     env.assert_string(perfil_profissional_string)
 
     print("\n" + "="*60)
-    print("CURSO(S) IDEAL(IS) PARA SUA CARREIRA:")
+    print("CARREIRA(S) IDEAL(IS) PARA SEU(S) CURSO(S):")
     print("="*60)
     
     env.run()
@@ -156,9 +156,8 @@ def main():
     cursos_ideais = [fact for fact in curso_ideal_facts if fact.template.name == "curso-ideal"]
     
     if not cursos_ideais:
-        print
         print("\n O seu plano de carreira nao se adequa ao seu curso.")
-        print("\n Por favor faca novas escolhas.")
+        print("Por favor faca novas escolhas.")
 
 
 if __name__ == "__main__":

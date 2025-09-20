@@ -108,7 +108,7 @@ campus_dict = {i+1: campus for i, campus in enumerate(campus_d.values())}
 tipos_dict = {
         1: "bacharelado",
         2: "licenciatura",
-        3: "abi"
+        3: "ABI"
     }
     
 focos_engenharia_dict = {

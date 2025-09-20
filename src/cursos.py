@@ -470,10 +470,10 @@ def add_cursos_facts(env):
         duracao=10,
         turno="integral",
         tipo="bacharelado",
-        area=area_d["CET"],
+        area=area_d["ENG"],
         nota_corte=760.37,
     )
-    
+
     curso_engenharia.assert_fact(id=40, nome="ENG. QUIMICA", foco="materiais")
 
     curso.assert_fact(
