@@ -45,9 +45,9 @@ def create_environment_with_templates():
 
     profissao_template = """
     (deftemplate profissao
-        (slot id (type INTEGER))
+        (slot id (type INTEGER)
         (slot nome (type STRING))
-        (slot categoria (type STRING)) ;; liberal, publico, privado, academico, autonomo
+        (slot categoria (type STRING)) ;; publico, privado, academico, autonomo
         (slot setor (type STRING)) ;; saude, educacao, tecnologia, juridico, engenharia, etc
         (slot salario_medio (type FLOAT))
         (slot nivel_autonomia (type STRING)) ;; baixo, medio, alto
